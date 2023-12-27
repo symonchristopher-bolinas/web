@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-size: 14px;
+    margin: 0; /* Remove default body margin */
+    background-color: rgba(255, 255, 255, 0.5); /* Background color with opacity */
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    width: 100%;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px rgb(124, 198, 248);
+    color: #072247; /* Red text color */
+    font-family: sans-serif; /* Specify the font family */
+}
+h3 {
+    color:#000;
+    line-height:30px;
+    padding-bottom:10px;
+}
+h4 {
+   padding-top: 25px;
+line-height: 40px;
+padding-bottom: 0px;
+font-size: 22px;
+font-weight: 900;
+
+}
+
+p {
+    color: #000;
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+.space-free {
+    height:100px;
+}
+
+section {
+    padding-top:5px;
+    margin-top:5px;
+}
+
+.consss{
+    padding-top:100px;
+}
+.label-danger {
+font-size: 18px;
+}
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+.go-marg {
+    margin-top:40px;
+}
+
+#home-sec { 
+  
+
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:80px;
+   min-height:500px;
+    color:#fff;
+    
+}
+
+.head-main {
+
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    width: 100%;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px rgb(124, 198, 248);
+    color: #072247; /* Red text color */
+    font-family: 'Open Sans'; /* Specify the font family */
+}
+
+
+.head-last {
+    text-align: center;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size:18px ;
+	text-shadow: 3px 3px 3px #ababab;
+}
+.button-container {
+    margin-top: -70px;
+    text-align: center;
+  }
+
+  .image-button {
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  }
+  
+  .image-button img {
+    border-radius: 5px;
+  }
+
+  .button-text {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .button-description {
+    font-size: 14px;
+    color: #555;
+  }
+#services-sec{
+	text-align: center;
+	margin-top:-120px;
+	padding-top:-120px;
+}
+.adjst{
+	margin-top: -40px;
+}
+
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar {
+	font-size: 18px;
+}
+
+.navbar-inverse {
+background: #000000;
+min-height: 60px;
+padding-top: 5px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+    font-family: 'Open Sans';
+	letter-spacing: 2px;
+}
+.navbar-inverse .navbar-brand img{
+	margin-top: -20px;
+	max-height: 60px;
+	max-width: 60px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #ffffff;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #ffffff;
+font-family: 'Open Sans';
+}
+.navbar-inverse {
+border-color: #D6D6D6;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #7fd5e4;
+}
+.navbar-toggle {
+    background-color: black;
+}
+/*=======================================
+    Contact STYLES
+==================================================*/
+.conus {
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+
+  }
+  
+  .conus h2 {
+    font-size: 70px;
+    font-family: 'Open Sans';
+  }
+  
+  .conus p {
+    font-size: 27px;
+    text-shadow: 3px 3px 3px #ababab;
+  }
+
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 2px solid black;
+}
+/*=======================================
+
+/*=======================================
+    MEDIA QUERIES
+    
+    ==================================================*/
+
+@media all and (max-width:700px) and (min-width:381px) {
+    .head-main { 
+        width: 100%;
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main { 
+        width: 100%;
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width:700px) and (min-width:401px) {
+    .head-last { 
+        width: 100%;
+    }
+}
+
+@media all and (max-width:381px) and (min-width:100px) {
+    .head-last { 
+        width: 100%;
+    }
+}
