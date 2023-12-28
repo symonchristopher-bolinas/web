@@ -85,7 +85,7 @@ background-size: cover;
 width: 100%;
 display: block;
 height: auto;
- padding-top:80px;
+ padding-top:120px;
    min-height:500px;
     color:#fff;
     
@@ -107,13 +107,14 @@ height: auto;
 .head-last {
     text-align: center;
     width: 100%;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size:18px ;
+    margin-top: -20px;
 	text-shadow: 3px 3px 3px #ababab;
 }
 .button-container {
-    margin-top: -70px;
+    margin-top: -80px;
     text-align: center;
   }
 
